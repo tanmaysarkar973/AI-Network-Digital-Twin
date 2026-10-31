@@ -20,7 +20,9 @@ print(" ENVIRONMENT VERIFICATION")
 print("=" * 45)
 
 print("Python:", sys.version)
-print("Flask:", flask.__version__)
+from importlib.metadata import version
+
+print("Flask:", version("flask"))
 print("NumPy:", numpy.__version__)
 print("Pandas:", pandas.__version__)
 print("Scikit-learn:", sklearn.__version__)
