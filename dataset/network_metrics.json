@@ -1,0 +1,10 @@
+{
+    "total_packets": 9113,
+    "delivered_packets": 4777,
+    "dropped_packets": 4336,
+    "packet_loss_percent": 47.58,
+    "average_latency_ms": 56.1151,
+    "p95_latency_ms": 90.5725,
+    "throughput_mbps": 5.6833,
+    "simulation_time_seconds": 10.0864
+}
